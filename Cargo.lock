@@ -406,6 +406,7 @@ dependencies = [
  "uu_pr",
  "uu_printenv",
  "uu_printf",
+ "uu_ps",
  "uu_ptx",
  "uu_pwd",
  "uu_readlink",
@@ -2698,6 +2699,14 @@ dependencies = [
 
 [[package]]
 name = "uu_printf"
+version = "0.0.14"
+dependencies = [
+ "clap 3.1.18",
+ "uucore",
+]
+
+[[package]]
+name = "uu_ps"
 version = "0.0.14"
 dependencies = [
  "clap 3.1.18",
